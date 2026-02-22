@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Reproductor de Videos Personalizado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 Reproductor de Videos</h1>
+            <p>Selecciona un video para reproducir</p>
+        </header>
+
+        <main>
+            <section class="video-player-section">
+
+                <div class="video-container">
+                    <video id="mainVideo" class="main-video">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+
+                    <div class="video-controls-wrapper">
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill"></div>
+                                <div class="progress-handle" id="progressHandle"></div>
+                            </div>
+
+                            <div class="time-display">
+                                <span id="currentTime">0:00</span> / <span id="durationTime">0:00</span>
+                            </div>
+                        </div>
+
+                        <div class="custom-controls">
+                            <button id="prevBtn" class="control-btn prev" title="Video Anterior">
+                                <i class="fas fa-step-backward"></i>
+                            </button>
+                            <button id="playBtn" class="control-btn play" title="Reproducir">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button id="pauseBtn" class="control-btn pause" title="Pausar">
+                                <i class="fas fa-pause"></i>
+                            </button>
+                            <button id="stopBtn" class="control-btn stop" title="Detener">
+                                <i class="fas fa-stop"></i>
+                            </button>
+                            <button id="nextBtn" class="control-btn next" title="Video Siguiente">
+                                <i class="fas fa-step-forward"></i>
+                            </button>
+                            <button id="downloadBtn" class="control-btn download" title="Descargar">
+                                <i class="fas fa-download"></i>
+                            </button>
+
+                            <button id="fullscreenBtn" class="control-btn fullscreen" title="Pantalla Completa">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video-list-section">
+                <h2>Videos Disponibles</h2>
+                <div class="video-grid" id="videoGrid">
+                    <!-- Los videos se cargarán dinámicamente con JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 - Reproductor de Videos Responsivo</p>
+            <p>Creado por: Jenrry Soto Dextre</p>
+            <p>Página web: <a style="color: #00ff00;" target="_blank" href="https://dextre.xyz">https://dextre.xyz</a>
+            </p>
+            <br>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
