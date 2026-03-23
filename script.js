@@ -55,7 +55,7 @@ const videos = [
         src: "videos/Caderas de acero.mp4",
         thumbnail: "⛰️",
         size: "25 MB"
-    }
+    },
     {
         id: 8,
         title: "Taller de uso de Microsoft Teams",
