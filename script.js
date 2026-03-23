@@ -56,6 +56,14 @@ const videos = [
         thumbnail: "⛰️",
         size: "25 MB"
     }
+    {
+        id: 8,
+        title: "Taller de uso de Microsoft Teams",
+        description: "Video instructivo sobre el uso de Microsoft Teams",
+        src: "videos/Taller Uso de la plataforma Microsoft Teams.mp4",
+        thumbnail: "⛰️",
+        size: "25 MB"
+    }
 ];
 
 // Elementos del DOM
