@@ -61,6 +61,30 @@ const videos = [
         title: "Taller de uso de Microsoft Teams",
         description: "Video instructivo sobre el uso de Microsoft Teams",
         src: "videos/Taller Uso de la plataforma Microsoft Teams.mp4"
+    },
+    {
+        id: 9,
+        title: "Cinco escalones de la hernia discal",
+        description: "Video acerca de la hernia discal",
+        src: "videos/5 ESCALONES de la HERNIA DISCAL ¿En cual estás y como SALIR de el.mp4"
+    },
+    {
+        id: 10,
+        title: "Las 7 mentiras que te han contado",
+        description: "Mentiras de la hernia discal",
+        src: "videos/LAS 7 MENTIRAS que TE HAN CONTADO sobre la HERNIA DISCAL y cómo liberarte de ellas.mp4"
+    },
+    {
+        id: 11,
+        title: "Por esto tu dolor no mejora",
+        description: "No mejoras aunque estés haciendo ejercicio",
+        src: "videos/Por esto tu DOLOR NO MEJORA aunque estés haciendo ejercicio.mp4"
+    },
+    {
+        id: 12,
+        title: "Boda de Briggite y Taylor",
+        description: "Boda realizada en Alazka USA 29/03/2026",
+        src: "videos/boda_brigite.mp4"
     }
 ];
 
